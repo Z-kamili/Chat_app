@@ -1,10 +1,6 @@
 <div wire:poll>
     <div class="container">
         <h3 class=" text-center">
-
-            @if (auth()->user()->email == 'samir.gamal77@yahoo.com')
-                <a class="btn btn-primary" href="{{ Url('delete_chat') }}"></a>
-            @endif
         </h3>
         <div class="messaging">
             <div class="inbox_msg">
